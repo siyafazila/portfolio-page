@@ -1,4 +1,5 @@
 body {
+	position: relative;
 	font-family: 'Noto Serif', serif;
 	background-color: #f6f1ed;
 	line-height: 24px;
@@ -46,8 +47,14 @@ body {
 
 @media (min-width: 1200px) {
  
- 	
- }
+#imagejumbo img {
+	
+	width: 100%;
+	height: auto;
+	margin-bottom: -30px;
+	}
+
+}
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	#brandname h1{
@@ -121,7 +128,7 @@ button.navbar-toggle .icon-bar {
 
 #imagejumbo img {
 	
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 	margin-bottom: -30px;
 	}
@@ -232,3 +239,4 @@ p.copyright {
 	font-weight: bold;
 	font-size: 15px;
 }
+
